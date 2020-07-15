@@ -16,6 +16,9 @@ struct YieldVariables {
     _modify {
       var x = ""
       yield &x
+         _modify {
+      var x = ""
+      yield &x
     }
   }
 
